@@ -1,0 +1,1601 @@
+# Copyright (C) 2016 Give-Recurring
+# This file is distributed under the same license as the Give-Recurring package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Give-Recurring\n"
+"Report-Msgid-Bugs-To: https://github.com/WordImpress/Give-Recurring-Donations/issues/new\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Language-Team: WordImpress <info@wordimpress.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: give-recurring.php:407
+msgid "<strong>Activation Error:</strong> You must have the <a href=\"%s\" target=\"_blank\">Give</a> core plugin installed and activated for Recurring Donation to activate."
+msgstr ""
+
+#: give-recurring.php:419
+msgid "<strong>Activation Error:</strong> You must have the <a href=\"%s\" target=\"_blank\">Give</a> core version 1.7+ for the Recurring Donations add-on activate."
+msgstr ""
+
+#: give-recurring.php:529
+msgctxt "Subscription payment status"
+msgid "Renewal"
+msgstr ""
+
+#: give-recurring.php:534
+msgid "Renewal <span class=\"count\">(%s)</span>"
+msgid_plural "Subscription <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: give-recurring.php:549, give-recurring.php:550, includes/admin/class-recurring-reports.php:258, includes/admin/donors.php:16, includes/admin/subscriptions-details.php:19
+msgid "Subscriptions"
+msgstr ""
+
+#: give-recurring.php:602, includes/admin/metabox.php:250
+msgid "Renewal"
+msgstr ""
+
+#: give-recurring.php:603, includes/admin/class-subscriptions-list-table.php:152, includes/admin/subscriptions-details.php:180, includes/give-recurring-helpers.php:206
+msgid "Cancelled"
+msgstr ""
+
+#: give-recurring.php:630, includes/admin/subscriptions-details.php:244
+msgid "Renewals"
+msgstr ""
+
+#: give-recurring.php:646, includes/give-recurring-helpers.php:50
+msgid "Daily"
+msgstr ""
+
+#: give-recurring.php:647, includes/give-recurring-helpers.php:53
+msgid "Weekly"
+msgstr ""
+
+#: give-recurring.php:648, includes/give-recurring-helpers.php:56
+msgid "Monthly"
+msgstr ""
+
+#: give-recurring.php:649, includes/give-recurring-helpers.php:59
+msgid "Yearly"
+msgstr ""
+
+#: give-recurring.php:1201
+msgid "Give Subscriber"
+msgstr ""
+
+#: includes/admin/class-admin-notices.php:46
+msgid "Subscription successfully updated."
+msgstr ""
+
+#: includes/admin/class-admin-notices.php:50
+msgid "Subscription successfully deleted."
+msgstr ""
+
+#: includes/admin/class-admin-notices.php:54
+msgid "Subscription successfully cancelled."
+msgstr ""
+
+#: includes/admin/class-admin-notices.php:58
+msgid "Renewal donation recorded successfully"
+msgstr ""
+
+#: includes/admin/class-admin-notices.php:62
+msgid "Renewal donation could not be recorded"
+msgstr ""
+
+#: includes/admin/class-recurring-reports.php:35, includes/admin/class-recurring-reports.php:268
+msgid "Renewal Donations"
+msgstr ""
+
+#: includes/admin/class-recurring-reports.php:99
+msgid "You do not have permission to view this data."
+msgstr ""
+
+#: includes/admin/class-recurring-reports.php:99, includes/admin/emails/expiration-notice-edit.php:17, includes/admin/emails/renewal-notice-edit.php:17, includes/admin/emails/settings-recurring-emails.php:194, includes/admin/emails/settings-recurring-emails.php:198, includes/admin/emails/settings-recurring-emails.php:273, includes/admin/emails/settings-recurring-emails.php:277, includes/admin/emails/settings-recurring-emails.php:281, includes/admin/emails/settings-recurring-emails.php:332, includes/admin/emails/settings-recurring-emails.php:336, includes/admin/emails/settings-recurring-emails.php:340, includes/admin/emails/settings-recurring-emails.php:387, includes/admin/emails/settings-recurring-emails.php:391, includes/admin/emails/settings-recurring-emails.php:395, includes/admin/emails/settings-recurring-emails.php:399, includes/admin/subscriptions.php:28, includes/admin/subscriptions.php:70, includes/admin/subscriptions.php:106, includes/gateways/give-recurring-gateway.php:296, includes/gateways/give-recurring-gateway.php:479, includes/gateways/give-recurring-gateway.php:483, includes/gateways/give-recurring-gateway.php:492, includes/gateways/give-recurring-gateway.php:497, includes/gateways/give-recurring-gateway.php:502, includes/gateways/give-recurring-gateway.php:550, includes/gateways/give-recurring-gateway.php:558, includes/gateways/give-recurring-gateway.php:584, includes/gateways/give-recurring-paypal.php:510, includes/gateways/give-recurring-paypal.php:521, includes/gateways/give-recurring-paypal.php:523, includes/gateways/give-recurring-paypalpro.php:541, includes/gateways/give-recurring-paypalpro.php:630, includes/gateways/give-recurring-stripe.php:210, includes/gateways/give-recurring-stripe.php:431, includes/gateways/give-recurring-wepay.php:621, includes/gateways/give-recurring-wepay.php:631, includes/give-recurring-shortcodes.php:90, includes/give-recurring-shortcodes.php:114, includes/give-recurring-shortcodes.php:120
+msgid "Error"
+msgstr ""
+
+#: includes/admin/class-recurring-reports.php:259
+msgid "Income"
+msgstr ""
+
+#: includes/admin/class-recurring-reports.php:294
+msgid "Total earnings for period shown: "
+msgstr ""
+
+#: includes/admin/class-recurring-reports.php:300
+msgid "Total renewal donations for period shown: "
+msgstr ""
+
+#: includes/admin/class-recurring-reports.php:329
+msgid "Recurring Emails"
+msgstr ""
+
+#: includes/admin/class-shortcode-generator.php:32
+msgid "Give Subscriptions"
+msgstr ""
+
+#: includes/admin/class-shortcode-generator.php:50
+msgid "Show Status Column:"
+msgstr ""
+
+#: includes/admin/class-shortcode-generator.php:51
+msgid "Do you want to display the subscriptions status column?"
+msgstr ""
+
+#: includes/admin/class-shortcode-generator.php:54, includes/admin/class-shortcode-generator.php:64, includes/admin/class-shortcode-generator.php:74, includes/admin/class-shortcode-generator.php:84, includes/admin/class-shortcode-generator.php:94
+msgid "Show"
+msgstr ""
+
+#: includes/admin/class-shortcode-generator.php:55, includes/admin/class-shortcode-generator.php:65, includes/admin/class-shortcode-generator.php:75, includes/admin/class-shortcode-generator.php:85, includes/admin/class-shortcode-generator.php:95
+msgid "Hide"
+msgstr ""
+
+#: includes/admin/class-shortcode-generator.php:61
+msgid "Show Renewal Date Column:"
+msgstr ""
+
+#: includes/admin/class-shortcode-generator.php:62
+msgid "Do you want to display the subscription renewal date column?"
+msgstr ""
+
+#: includes/admin/class-shortcode-generator.php:71
+msgid "Display Progress Column:"
+msgstr ""
+
+#: includes/admin/class-shortcode-generator.php:72
+msgid "Do you want to display the subscription progress column?"
+msgstr ""
+
+#: includes/admin/class-shortcode-generator.php:81
+msgid "Display Start Date:"
+msgstr ""
+
+#: includes/admin/class-shortcode-generator.php:82
+msgid "Do you want to display the subscription start date column?"
+msgstr ""
+
+#: includes/admin/class-shortcode-generator.php:91
+msgid "Display End Date:"
+msgstr ""
+
+#: includes/admin/class-shortcode-generator.php:92
+msgid "Do you want to display the subscription end date column?"
+msgstr ""
+
+#: includes/admin/class-subscriptions-list-table.php:132
+msgid "All"
+msgstr ""
+
+#: includes/admin/class-subscriptions-list-table.php:136, includes/admin/subscriptions-details.php:179, includes/give-recurring-helpers.php:215
+msgid "Active"
+msgstr ""
+
+#: includes/admin/class-subscriptions-list-table.php:140, includes/admin/subscriptions-details.php:178, includes/give-recurring-helpers.php:203
+msgid "Pending"
+msgstr ""
+
+#: includes/admin/class-subscriptions-list-table.php:144, includes/admin/subscriptions-details.php:181, includes/give-recurring-helpers.php:209
+msgid "Expired"
+msgstr ""
+
+#: includes/admin/class-subscriptions-list-table.php:148, includes/admin/subscriptions-details.php:182, includes/give-recurring-helpers.php:212
+msgid "Completed"
+msgstr ""
+
+#: includes/admin/class-subscriptions-list-table.php:156
+msgid "Failing"
+msgstr ""
+
+#: includes/admin/class-subscriptions-list-table.php:185
+msgid "Email donor"
+msgstr ""
+
+#: includes/admin/class-subscriptions-list-table.php:185
+msgid "(unknown)"
+msgstr ""
+
+#: includes/admin/class-subscriptions-list-table.php:187, includes/admin/class-subscriptions-list-table.php:285, includes/admin/donors.php:42, includes/admin/subscriptions-details.php:268, includes/admin/subscriptions-details.php:325
+msgid "View Details"
+msgstr ""
+
+#: includes/admin/class-subscriptions-list-table.php:187
+msgid "by"
+msgstr ""
+
+#: includes/admin/class-subscriptions-list-table.php:243, templates/shortcode-subscription-receipt.php:47, templates/shortcode-subscriptions.php:89
+msgid "N/A"
+msgstr ""
+
+#: includes/admin/class-subscriptions-list-table.php:297, templates/shortcode-subscription-receipt.php:32, templates/shortcode-subscriptions.php:66
+msgid "Subscription"
+msgstr ""
+
+#: includes/admin/class-subscriptions-list-table.php:298, includes/admin/subscriptions-details.php:254, templates/shortcode-subscription-receipt.php:33, templates/shortcode-subscriptions.php:68
+msgid "Status"
+msgstr ""
+
+#: includes/admin/class-subscriptions-list-table.php:299
+msgid "Billing Cycle"
+msgstr ""
+
+#: includes/admin/class-subscriptions-list-table.php:300, templates/shortcode-subscription-receipt.php:35, templates/shortcode-subscriptions.php:74
+msgid "Progress"
+msgstr ""
+
+#: includes/admin/class-subscriptions-list-table.php:301, templates/shortcode-subscription-receipt.php:34, templates/shortcode-subscriptions.php:71
+msgid "Renewal Date"
+msgstr ""
+
+#: includes/admin/class-subscriptions-list-table.php:302, includes/admin/donors.php:20
+msgid "Form"
+msgstr ""
+
+#: includes/admin/class-subscriptions-list-table.php:303
+msgid "Details"
+msgstr ""
+
+#: includes/admin/donors.php:21, includes/admin/subscriptions-details.php:252
+msgid "Amount"
+msgstr ""
+
+#: includes/admin/donors.php:22, includes/admin/emails/settings-recurring-emails.php:22, includes/admin/emails/settings-recurring-emails.php:71, includes/admin/subscriptions-details.php:255, templates/shortcode-subscriptions.php:82
+msgid "Actions"
+msgstr ""
+
+#: includes/admin/donors.php:35
+msgid "%1$s every %2$s"
+msgstr ""
+
+#: includes/admin/donors.php:84
+msgid "Renewal Donation"
+msgid_plural "Renewal Donations"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/admin/emails/class-recurring-email-log.php:59
+msgid "Email Type"
+msgstr ""
+
+#: includes/admin/emails/class-recurring-email-log.php:60, includes/admin/emails/expiration-notice-add.php:26, includes/admin/emails/expiration-notice-edit.php:31, includes/admin/emails/renewal-notice-add.php:26, includes/admin/emails/renewal-notice-edit.php:31
+msgid "Email Subject"
+msgstr ""
+
+#: includes/admin/emails/class-recurring-email-log.php:61
+msgid "Email Recipient"
+msgstr ""
+
+#: includes/admin/emails/class-recurring-email-log.php:62
+msgid "Date Sent"
+msgstr ""
+
+#: includes/admin/emails/class-recurring-email-log.php:63
+msgid "Donation Form"
+msgstr ""
+
+#: includes/admin/emails/class-recurring-email-log.php:105
+msgid "No subject found."
+msgstr ""
+
+#: includes/admin/emails/class-recurring-email-log.php:315
+msgid "Renewal Notice"
+msgstr ""
+
+#: includes/admin/emails/class-recurring-email-log.php:318
+msgid "Expiration Notice"
+msgstr ""
+
+#: includes/admin/emails/class-recurring-email-log.php:321
+msgid "Cancellation Notice"
+msgstr ""
+
+#: includes/admin/emails/class-recurring-email-log.php:324
+msgid "Renewal Receipt"
+msgstr ""
+
+#: includes/admin/emails/expiration-notice-add.php:19, includes/admin/emails/expiration-notice-add.php:69
+msgid "Add Expiration Notice"
+msgstr ""
+
+#: includes/admin/emails/expiration-notice-add.php:19, includes/admin/emails/expiration-notice-edit.php:25, includes/admin/emails/renewal-notice-add.php:19, includes/admin/emails/renewal-notice-edit.php:25
+msgid "Go Back"
+msgstr ""
+
+#: includes/admin/emails/expiration-notice-add.php:29, includes/admin/emails/settings-recurring-emails.php:284, includes/give-recurring-emails.php:226, includes/give-recurring-expirations.php:99, includes/give-recurring-expirations.php:135
+msgid "Your Subscription is About to Expire"
+msgstr ""
+
+#: includes/admin/emails/expiration-notice-add.php:31, includes/admin/emails/expiration-notice-edit.php:36
+msgid "The subject line of the expiration notice email"
+msgstr ""
+
+#: includes/admin/emails/expiration-notice-add.php:36, includes/admin/emails/expiration-notice-edit.php:41, includes/admin/emails/renewal-notice-add.php:36, includes/admin/emails/renewal-notice-edit.php:41
+msgid "Email Period"
+msgstr ""
+
+#: includes/admin/emails/expiration-notice-add.php:45, includes/admin/emails/expiration-notice-edit.php:50, includes/admin/emails/renewal-notice-add.php:45, includes/admin/emails/renewal-notice-edit.php:50
+msgid "When should this email be sent?"
+msgstr ""
+
+#: includes/admin/emails/expiration-notice-add.php:50, includes/admin/emails/expiration-notice-edit.php:55, includes/admin/emails/renewal-notice-add.php:50, includes/admin/emails/renewal-notice-edit.php:55
+msgid "Email Message"
+msgstr ""
+
+#: includes/admin/emails/expiration-notice-add.php:54, includes/admin/emails/expiration-notice-edit.php:59
+msgid "The email message to be sent with the expiration notice. The following template tags can be used in the message:"
+msgstr ""
+
+#: includes/admin/emails/expiration-notice-add.php:56, includes/admin/emails/expiration-notice-edit.php:61, includes/admin/emails/renewal-notice-add.php:56, includes/admin/emails/renewal-notice-edit.php:61
+msgid "The donor's name"
+msgstr ""
+
+#: includes/admin/emails/expiration-notice-add.php:57, includes/admin/emails/expiration-notice-edit.php:62, includes/admin/emails/renewal-notice-add.php:57, includes/admin/emails/renewal-notice-edit.php:62
+msgid "The name of the donation form the subscription belongs to"
+msgstr ""
+
+#: includes/admin/emails/expiration-notice-add.php:58, includes/admin/emails/expiration-notice-edit.php:63, includes/admin/emails/renewal-notice-add.php:58, includes/admin/emails/renewal-notice-edit.php:63
+msgid "The expiration date for the subscription"
+msgstr ""
+
+#: includes/admin/emails/expiration-notice-add.php:59, includes/admin/emails/expiration-notice-edit.php:64
+msgid "Outputs a link to the donation form the donor gave to"
+msgstr ""
+
+#: includes/admin/emails/expiration-notice-edit.php:17, includes/admin/emails/renewal-notice-edit.php:17
+msgid "Something went wrong."
+msgstr ""
+
+#: includes/admin/emails/expiration-notice-edit.php:25
+msgid "Edit Expiration Notice"
+msgstr ""
+
+#: includes/admin/emails/expiration-notice-edit.php:75
+msgid "Update Expiration Notice"
+msgstr ""
+
+#: includes/admin/emails/renewal-notice-add.php:19, includes/admin/emails/renewal-notice-add.php:68
+msgid "Add Renewal Notice"
+msgstr ""
+
+#: includes/admin/emails/renewal-notice-add.php:29, includes/admin/emails/settings-recurring-emails.php:343, includes/give-recurring-emails.php:220, includes/give-recurring-renewals.php:83, includes/give-recurring-renewals.php:115
+msgid "Your Subscription is About to Renew"
+msgstr ""
+
+#: includes/admin/emails/renewal-notice-add.php:31, includes/admin/emails/renewal-notice-edit.php:36
+msgid "The subject line of the renewal notice email"
+msgstr ""
+
+#: includes/admin/emails/renewal-notice-add.php:54, includes/admin/emails/renewal-notice-edit.php:59
+msgid "The email message to be sent with the renewal notice. The following template tags can be used in the message:"
+msgstr ""
+
+#: includes/admin/emails/renewal-notice-edit.php:25
+msgid "Edit Renewal Notice"
+msgstr ""
+
+#: includes/admin/emails/renewal-notice-edit.php:74
+msgid "Update Renewal Notice"
+msgstr ""
+
+#: includes/admin/emails/settings-recurring-emails.php:20, includes/admin/emails/settings-recurring-emails.php:69
+msgid "Subject"
+msgstr ""
+
+#: includes/admin/emails/settings-recurring-emails.php:21, includes/admin/emails/settings-recurring-emails.php:70
+msgid "Send Period"
+msgstr ""
+
+#: includes/admin/emails/settings-recurring-emails.php:33, includes/admin/emails/settings-recurring-emails.php:82, includes/admin/subscriptions-details.php:151, includes/admin/subscriptions-details.php:169, includes/give-recurring-scripts.php:76
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/emails/settings-recurring-emails.php:34, includes/admin/emails/settings-recurring-emails.php:83
+msgid "Delete"
+msgstr ""
+
+#: includes/admin/emails/settings-recurring-emails.php:41
+msgid "Add Renewal Reminder"
+msgstr ""
+
+#: includes/admin/emails/settings-recurring-emails.php:42
+msgid "View Renewal Reminder Log"
+msgstr ""
+
+#: includes/admin/emails/settings-recurring-emails.php:90
+msgid "Add Expiration Reminder"
+msgstr ""
+
+#: includes/admin/emails/settings-recurring-emails.php:91
+msgid "View Expiration Reminder Log"
+msgstr ""
+
+#: includes/admin/emails/settings-recurring-emails.php:109, includes/admin/emails/settings-recurring-emails.php:110
+msgid "Subscription Renewal Reminder"
+msgstr ""
+
+#: includes/admin/emails/settings-recurring-emails.php:118, includes/admin/emails/settings-recurring-emails.php:119
+msgid "Subscription Expiration Reminder"
+msgstr ""
+
+#: includes/admin/emails/settings-recurring-emails.php:152, includes/admin/emails/settings-recurring-emails.php:387
+msgid "Oops looks like something went wrong."
+msgstr ""
+
+#: includes/admin/emails/settings-recurring-emails.php:194
+msgid "You do not have permission to add email notices."
+msgstr ""
+
+#: includes/admin/emails/settings-recurring-emails.php:198, includes/admin/emails/settings-recurring-emails.php:277, includes/admin/emails/settings-recurring-emails.php:336, includes/admin/emails/settings-recurring-emails.php:395, includes/admin/subscriptions.php:28, includes/admin/subscriptions.php:70, includes/admin/subscriptions.php:106, includes/gateways/give-recurring-gateway.php:296, includes/gateways/give-recurring-gateway.php:550
+msgid "Nonce verification failed."
+msgstr ""
+
+#: includes/admin/emails/settings-recurring-emails.php:204
+msgid "Your Donation Subscription is About to Renew"
+msgstr ""
+
+#: includes/admin/emails/settings-recurring-emails.php:205
+msgid ""
+"Hello {name},\n"
+"\n"
+"	Your subscription for {subscription_name} will renew on {expiration}."
+msgstr ""
+
+#: includes/admin/emails/settings-recurring-emails.php:211
+msgid "Your Donation Subscription is About to Expire"
+msgstr ""
+
+#: includes/admin/emails/settings-recurring-emails.php:212
+msgid ""
+"Hello {name},\n"
+"\n"
+"		Your donation subscription for {subscription_name} is about to expire.\n"
+"\n"
+"		If you wish to renew your subscription, simply click the link below and follow the instructions.\n"
+"\n"
+"		Your subscription expires on: {expiration}.\n"
+"\n"
+"		Renew now: {renewal_link}."
+msgstr ""
+
+#: includes/admin/emails/settings-recurring-emails.php:273
+msgid "You do not have permission to add renewal notices."
+msgstr ""
+
+#: includes/admin/emails/settings-recurring-emails.php:281
+msgid "No renewal notice ID was provided."
+msgstr ""
+
+#: includes/admin/emails/settings-recurring-emails.php:332
+msgid "You do not have permission to add notices."
+msgstr ""
+
+#: includes/admin/emails/settings-recurring-emails.php:340, includes/admin/emails/settings-recurring-emails.php:399
+msgid "No notice ID was provided."
+msgstr ""
+
+#: includes/admin/emails/settings-recurring-emails.php:391
+msgid "You do not have permission to delete notices."
+msgstr ""
+
+#: includes/admin/give-recurring-activation.php:64, includes/admin/metabox.php:410, includes/admin/settings.php:26
+msgid "Recurring Donations"
+msgstr ""
+
+#: includes/admin/give-recurring-activation.php:86
+msgid "<strong>Activation Error:</strong> We noticed Give is not active. Please activate Give in order to use Recurring Donations."
+msgstr ""
+
+#: includes/admin/give-recurring-activation.php:95
+msgid "<strong>Activation Error:</strong> We noticed Give is not up to date. Please update Give in order to use Recurring Donations."
+msgstr ""
+
+#: includes/admin/metabox.php:36, includes/admin/metabox.php:62, includes/admin/metabox.php:177
+msgid "Recurring"
+msgstr ""
+
+#: includes/admin/metabox.php:37, includes/admin/metabox.php:99, includes/admin/metabox.php:190
+msgid "Period"
+msgstr ""
+
+#: includes/admin/metabox.php:38
+msgctxt "Referring to billing period"
+msgid "Times"
+msgstr ""
+
+#: includes/admin/metabox.php:67
+msgid "No"
+msgstr ""
+
+#: includes/admin/metabox.php:68
+msgid "Yes"
+msgstr ""
+
+#: includes/admin/metabox.php:181
+msgid "No - Not Recurring"
+msgstr ""
+
+#: includes/admin/metabox.php:182
+msgid "Yes - Admin Defined"
+msgstr ""
+
+#: includes/admin/metabox.php:183
+msgid "Yes - Donor's Choice"
+msgstr ""
+
+#: includes/admin/metabox.php:186
+msgid "Is this a recurring donation form? If so, select which kind of recurring donation form you would like to create. The \"Admin Defined\" option ensures that set donation forms are always recurring. For multi-level forms, the \"Admin Defined\" makes it so that the recurring option can be set per level. The \"Donor Choice\" option allows the potential donor to decide within the form whether they want to make the donation recurring or not based on your chosen subscription period."
+msgstr ""
+
+#: includes/admin/metabox.php:195
+msgid "How often would you like the donation to reoccur? This is the time between payments."
+msgstr ""
+
+#: includes/admin/metabox.php:206
+msgid "How many times should this donation occur? Leave blank or \"0\" for infinite or until the user cancels."
+msgstr ""
+
+#: includes/admin/metabox.php:221
+msgid "Would you like the donation form's subscription checkbox checked by default?"
+msgstr ""
+
+#: includes/admin/metabox.php:280
+msgid "Subscription Meta"
+msgstr ""
+
+#: includes/admin/metabox.php:285
+msgid "Subscription ID: <a href=\"%s\">#%d</a>"
+msgstr ""
+
+#: includes/admin/metabox.php:297
+msgid "Renewals:"
+msgstr ""
+
+#: includes/admin/metabox.php:340, includes/admin/metabox.php:374
+msgid "This is a recurring donation parent payment. The parent payment is the initial payment made by this donor. All payments made hereafter for the profile are marked as renewal payments."
+msgstr ""
+
+#: includes/admin/metabox.php:345
+msgid "This is a renewal payment for the donation form:"
+msgstr ""
+
+#: includes/admin/metabox.php:414
+msgid "Parent Payment: <a href=\"%s\">#%s</a>"
+msgstr ""
+
+#: includes/admin/metabox.php:450
+msgid "Subscription TXN ID:"
+msgstr ""
+
+#: includes/admin/plugins.php:30
+msgid "Settings"
+msgstr ""
+
+#: includes/admin/plugins.php:64
+msgid "Documentation"
+msgstr ""
+
+#: includes/admin/plugins.php:74
+msgid "Add-ons"
+msgstr ""
+
+#: includes/admin/settings.php:52
+msgid "Recurring Donations Settings"
+msgstr ""
+
+#: includes/admin/settings.php:56, includes/admin/settings.php:57
+msgid ""
+msgstr ""
+
+#: includes/admin/settings.php:65
+msgid "General Settings"
+msgstr ""
+
+#: includes/admin/settings.php:71
+msgid "Subscriptions Page"
+msgstr ""
+
+#: includes/admin/settings.php:72
+msgid "This is the page donors can access to manage their subscriptions. The %1$s[give_subscriptions]%2$s shortcode should be on this page."
+msgstr ""
+
+#: includes/admin/settings.php:84
+msgid "Renewal Receipt Email"
+msgstr ""
+
+#: includes/admin/settings.php:90
+msgid "Activate Renewal Receipt"
+msgstr ""
+
+#: includes/admin/settings.php:92
+msgid "Check this option if you would like donors to receive an email when a renewal donation payment has been received. Note: some payment gateways like Stripe and Authorize.net may also send out an email depending on your gateway settings."
+msgstr ""
+
+#: includes/admin/settings.php:96
+msgid "Renewal Receipt Subject"
+msgstr ""
+
+#: includes/admin/settings.php:98
+msgid "Enter the subject line for the renewal donation receipt email."
+msgstr ""
+
+#: includes/admin/settings.php:100
+msgid "Subscription Donation Receipt"
+msgstr ""
+
+#: includes/admin/settings.php:103
+msgid "Renewal Donation Receipt"
+msgstr ""
+
+#: includes/admin/settings.php:105
+msgid "Enter the email message that is sent to users after upon Give receiving a successful renewal donation. HTML is accepted. Available template tags:"
+msgstr ""
+
+#: includes/admin/settings.php:107, includes/admin/settings.php:137
+msgid "Dear"
+msgstr ""
+
+#: includes/admin/settings.php:107
+msgid "Thank you for your donation and continued support. Your generosity is appreciated! Here are your donation details:"
+msgstr ""
+
+#: includes/admin/settings.php:114
+msgid "Subscription Cancelled Email"
+msgstr ""
+
+#: includes/admin/settings.php:120
+msgid "Activate Cancelled Email"
+msgstr ""
+
+#: includes/admin/settings.php:122
+msgid "Check this option if you would like donors to receive an email when a subscription has been cancelled. The email will send when either the donor or admin cancels the subscription."
+msgstr ""
+
+#: includes/admin/settings.php:126
+msgid "Subscription Cancelled Subject"
+msgstr ""
+
+#: includes/admin/settings.php:128
+msgid "Enter the subject line of the email sent when a subscription is cancelled."
+msgstr ""
+
+#: includes/admin/settings.php:130
+msgid "Subscription Donation Cancelled"
+msgstr ""
+
+#: includes/admin/settings.php:133
+msgid "Subscription Cancelled Message"
+msgstr ""
+
+#: includes/admin/settings.php:135
+msgid "Enter the email message that is sent to users when a subscription is cancelled. HTML is accepted. Available template tags:"
+msgstr ""
+
+#: includes/admin/settings.php:137
+msgid "Your subscription for {donation} has been successfully cancelled. Here are the subscription details for your records:nn<strong>Subscription:</strong> {donation} - {amount}n<strong>Subscription Frequency:</strong> {subscription_frequency} n<strong>Completed Donations:</strong> {subscriptions_completed} n<strong>Payment Method:</strong> {payment_method}n<strong>Cancellation Date:</strong> {cancellation_date}nnSincerely,n{sitename}"
+msgstr ""
+
+#: includes/admin/settings.php:142
+msgid "Renewal Reminders Email(s)"
+msgstr ""
+
+#: includes/admin/settings.php:148
+msgid "Activate Renewal Reminders"
+msgstr ""
+
+#: includes/admin/settings.php:150
+msgid "Check this option if you would like donors to receive one or more email reminders when their subscription is approaching %1$srenewal%2$s."
+msgstr ""
+
+#: includes/admin/settings.php:154
+msgid "Renewal Reminders"
+msgstr ""
+
+#: includes/admin/settings.php:155
+msgid "Configure the subscription renewal notice emails"
+msgstr ""
+
+#: includes/admin/settings.php:160
+msgid "Expiration Reminders Email(s)"
+msgstr ""
+
+#: includes/admin/settings.php:166
+msgid "Activate Expiration Reminders"
+msgstr ""
+
+#: includes/admin/settings.php:168
+msgid "Check this option if you would like donors to receive one or more email reminders when their subscription is approaching the %1$sexpiration%2$s date."
+msgstr ""
+
+#: includes/admin/settings.php:172
+msgid "Expiration Reminders"
+msgstr ""
+
+#: includes/admin/settings.php:173
+msgid "Configure the subscription expiration notice emails"
+msgstr ""
+
+#: includes/admin/settings.php:207
+msgid "Give - Recurring Donations Add-on"
+msgstr ""
+
+#: includes/admin/settings.php:210
+msgid "Welcome to the Give Recurring Donations Add-on. This Add-on allows you create donations forms like never before with support for daily, weekly, monthly, and annual subscriptions. As well, you can customize the number of times you'd like to run the subscription, for example \"Give $20 a Month for a Year\", and also give the donor the choice whether or not make their donation recurring."
+msgstr ""
+
+#: includes/admin/settings.php:220
+msgid "Recurring Donations Documentation"
+msgstr ""
+
+#: includes/admin/settings.php:221
+msgid "The following articles will help you get started accepting recurring donations. Please read and test thoroughly prior to going live. If you have any questions or trouble along the way, we are here to help."
+msgstr ""
+
+#: includes/admin/settings.php:262
+msgid "There was an error retrieving the Give documentation list from the server. Please try again later."
+msgstr ""
+
+#: includes/admin/subscriptions-details.php:48
+msgid "You are not permitted to view this data."
+msgstr ""
+
+#: includes/admin/subscriptions-details.php:53, includes/admin/subscriptions-details.php:61, includes/gateways/give-recurring-gateway.php:492
+msgid "Invalid subscription ID."
+msgstr ""
+
+#: includes/admin/subscriptions-details.php:66, templates/shortcode-subscription-receipt.php:26
+msgid "Subscription Details"
+msgstr ""
+
+#: includes/admin/subscriptions-details.php:90
+msgid "Donor:"
+msgstr ""
+
+#: includes/admin/subscriptions-details.php:97
+msgid "Donation Form Title:"
+msgstr ""
+
+#: includes/admin/subscriptions-details.php:104
+msgid "Initial Donation ID:"
+msgstr ""
+
+#: includes/admin/subscriptions-details.php:111
+msgid "Billing Period:"
+msgstr ""
+
+#: includes/admin/subscriptions-details.php:118
+msgid "Times Billed:"
+msgstr ""
+
+#: includes/admin/subscriptions-details.php:125
+msgid "Donation Form ID:"
+msgstr ""
+
+#: includes/admin/subscriptions-details.php:135
+msgid "Gateway:"
+msgstr ""
+
+#: includes/admin/subscriptions-details.php:143
+msgid "Profile ID:"
+msgstr ""
+
+#: includes/admin/subscriptions-details.php:156
+msgid "Date Created:"
+msgstr ""
+
+#: includes/admin/subscriptions-details.php:163
+msgid "Expiration Date:"
+msgstr ""
+
+#: includes/admin/subscriptions-details.php:174
+msgid "Subscription Status:"
+msgstr ""
+
+#: includes/admin/subscriptions-details.php:194
+msgid "Changing the expiration date will not affect when renewal payments are processed."
+msgstr ""
+
+#: includes/admin/subscriptions-details.php:197
+msgid "Changing the profile ID can result in renewals not being processed. Do this with caution."
+msgstr ""
+
+#: includes/admin/subscriptions-details.php:207
+msgid "Update Subscription"
+msgstr ""
+
+#: includes/admin/subscriptions-details.php:213
+msgid "Cancel Subscription"
+msgstr ""
+
+#: includes/admin/subscriptions-details.php:217
+msgid "Delete Subscription"
+msgstr ""
+
+#: includes/admin/subscriptions-details.php:232
+msgid "Subscription Value"
+msgstr ""
+
+#: includes/admin/subscriptions-details.php:245, includes/admin/subscriptions-details.php:302
+msgid "Add Renewal"
+msgstr ""
+
+#: includes/admin/subscriptions-details.php:251
+msgid "ID"
+msgstr ""
+
+#: includes/admin/subscriptions-details.php:253
+msgid "Date"
+msgstr ""
+
+#: includes/admin/subscriptions-details.php:267, includes/admin/subscriptions-details.php:324
+msgid "View Donation %s Details"
+msgstr ""
+
+#: includes/admin/subscriptions-details.php:277
+msgid "No renewal transactions found. When this subscription renews you will see the renewal transactions display in this section."
+msgstr ""
+
+#: includes/admin/subscriptions-details.php:286
+msgid "Use this form to manually record a renewal donation. This will not charge the donor nor create the renewal at the gateway."
+msgstr ""
+
+#: includes/admin/subscriptions-details.php:289
+msgid "Amount:"
+msgstr ""
+
+#: includes/admin/subscriptions-details.php:295
+msgid "Transaction ID:"
+msgstr ""
+
+#: includes/admin/subscriptions-details.php:309
+msgid "Initial Donation:"
+msgstr ""
+
+#: includes/gateways/give-recurring-authorize.php:114
+msgid "The Authorize.net gateway is not activated"
+msgstr ""
+
+#: includes/gateways/give-recurring-authorize.php:118
+msgid "The API Login ID or Transaction key is missing."
+msgstr ""
+
+#: includes/gateways/give-recurring-authorize.php:143
+msgid "Gateway Error %s: %s"
+msgstr ""
+
+#: includes/gateways/give-recurring-authorize.php:424
+msgid "MD5-Hash"
+msgstr ""
+
+#: includes/gateways/give-recurring-authorize.php:425
+msgid "The Authorize.net MD5 Hash security feature allows Give to authenticate transaction responses from the payment gateway. <a href=\"%1$s\" target=\"_blank\">Read more about this feature &raquo;</a>"
+msgstr ""
+
+#: includes/gateways/give-recurring-authorize.php:430
+msgid "Hash Value"
+msgstr ""
+
+#: includes/gateways/give-recurring-authorize.php:431
+msgid "Please type the hash value exactly as it appears within your Authorize.net settings as described in the documentation article linked above."
+msgstr ""
+
+#: includes/gateways/give-recurring-authorize.php:488
+msgid "Please enter your last name"
+msgstr ""
+
+#: includes/gateways/give-recurring-gateway.php:134
+msgid "Error message here"
+msgstr ""
+
+#: includes/gateways/give-recurring-gateway.php:479, includes/give-recurring-shortcodes.php:120
+msgid "Unable to verify donation update."
+msgstr ""
+
+#: includes/gateways/give-recurring-gateway.php:483
+msgid "You must be logged in to update a payment method."
+msgstr ""
+
+#: includes/gateways/give-recurring-gateway.php:497
+msgid "Invalid subscriber."
+msgstr ""
+
+#: includes/gateways/give-recurring-gateway.php:502
+msgid "User ID and Subscriber do not match."
+msgstr ""
+
+#: includes/gateways/give-recurring-gateway.php:558
+msgid "This subscription cannot be cancelled."
+msgstr ""
+
+#: includes/gateways/give-recurring-paypal.php:156
+msgid "Please enter your PayPal email address."
+msgstr ""
+
+#: includes/gateways/give-recurring-paypal.php:288
+msgid "PayPal Subscription ID: %s"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypal.php:338
+msgid "IPN Error"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypal.php:338
+msgid "Invalid currency in IPN response. IPN data: "
+msgstr ""
+
+#: includes/gateways/give-recurring-paypal.php:500, includes/give-recurring-scripts.php:100
+msgid "PayPal Standard requires recurring times to be more than 1. Please specify a time with a minimum value of 2 and a maximum value of 52."
+msgstr ""
+
+#: includes/gateways/give-recurring-paypal.php:624
+msgid "There was a problem cancelling the subscription, please contact customer support. Error: %s"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypal.php:675
+msgid "The following API keys are required in order to process PayPal Standard subscriptions cancellations on site. %1$sClick here%2$s to learn more about PayPal Standard's recurring capabilities and requirements."
+msgstr ""
+
+#: includes/gateways/give-recurring-paypal.php:680
+msgid "Live API Username"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypal.php:681
+msgid "Enter your live API username"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypal.php:687
+msgid "Live API Password"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypal.php:688
+msgid "Enter your live API password"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypal.php:693
+msgid "Live API Signature"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypal.php:694
+msgid "Enter your live API signature"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypal.php:699
+msgid "Test API Username"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypal.php:700
+msgid "Enter your test API username"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypal.php:705
+msgid "Test API Password"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypal.php:706
+msgid "Enter your test API password"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypal.php:711
+msgid "Test API Signature"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypal.php:712
+msgid "Enter your test API signature"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro_payflow.php:219
+msgid "Initial donation ID: %1$s / Donation made from: %2$s"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro_payflow.php:262, includes/gateways/give-recurring-paypalpro_payflow.php:413
+msgid "There was a problem creating the recurring subscription."
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro_payflow.php:302, includes/gateways/give-recurring-paypalpro_payflow.php:307
+msgid "There was a problem connecting to the payment gateway."
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro_payflow.php:342
+msgid "PayPal Pro (Payflow) initial payment completed (PNREF: %s)"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro_payflow.php:352
+msgid "The payment was flagged by a fraud filter. Please check your PayPal Manager account to review and accept or deny the payment and then mark this donation complete or cancelled. Message from PayPal: %s"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro_payflow.php:361
+msgid "PayPal Pro (Payflow) payment failed. Payment was rejected due to an error: "
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro_payflow.php:362
+msgid "Payment error:"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro_payflow.php:370, includes/gateways/give-recurring-paypalpro_payflow.php:426
+msgid "Connection error:"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro_payflow.php:413
+msgid "It does not appear that this Payflow account has recurring enabled."
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro_payflow.php:454
+msgid "An error occurred, please try again. Error:.$response->get_error_message"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro_payflow.php:469, includes/gateways/give-recurring-paypalpro.php:670
+msgid "Something has gone wrong, please try again"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro_payflow.php:563
+msgid "No response message from PayPal provided"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro_payflow.php:566, includes/gateways/give-recurring-stripe.php:127, includes/gateways/give-recurring-stripe.php:218, includes/gateways/give-recurring-stripe.php:223, includes/gateways/give-recurring-stripe.php:523, includes/gateways/give-recurring-stripe.php:591, includes/gateways/give-recurring-stripe.php:666, includes/gateways/give-recurring-stripe.php:804, includes/gateways/give-recurring-stripe.php:812, includes/gateways/give-recurring-stripe.php:905
+msgid "Stripe Error"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro_payflow.php:566, includes/gateways/give-recurring-stripe.php:804, includes/gateways/give-recurring-stripe.php:812
+msgid "The Stripe Gateway returned an error while cancelling a subscription. Details: %s"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro_payflow.php:567, includes/gateways/give-recurring-stripe.php:805, includes/gateways/give-recurring-stripe.php:813
+msgid "An error occurred while cancelling the donation. Please try again."
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro_rest.php:104
+msgid "It appears that you have not configured PayPal REST API access. Please configure it in Give &rarr; Settings"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro_rest.php:176
+msgid "$agreement->get_error_message"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro_rest.php:280
+msgid "Could not create a new billing plan"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro_rest.php:309
+msgid "Could not retrieve the billing plan."
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro_rest.php:352
+msgid "Could not activate the billing plan."
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro_rest.php:427
+msgid "Could not create a new billing agreement."
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro_rest.php:454
+msgid "Could not retrieve billing agreement."
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro_rest.php:518
+msgid "Recurring donation cancelled by donor via .give_get_subscriptions_page_uri"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro_rest.php:533
+msgid "Could not cancel the billing agreement."
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro_rest.php:555
+msgid "PayPal Pro Recurring REST Error"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro_rest.php:555
+msgid "PayPal Pro REST returned an error while processing a payment. Details: %s"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro_rest.php:567, includes/gateways/give-recurring-stripe.php:168
+msgid "Invalid Request"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro_rest.php:579
+msgid "One or more fields are invalid in the request."
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro_rest.php:584
+msgid "An error occurred with PayPal: "
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro.php:105
+msgid "It appears that you have not configured PayPal API access. Please configure it in Give &rarr; Settings"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro.php:224
+msgid "IPN Verification Failed"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro.php:290, includes/gateways/give-recurring-paypalpro.php:454
+msgid "Invalid PayPal IPN"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro.php:290
+msgid "The PayPal IPN request received referred to a non-existent subscription profile ID. Please contact support."
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro.php:330
+msgid "Subscription donation successful"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro.php:335, tests/unit-tests/gateways/tests-give-recurring-paypalpro.php:110
+msgid "Subscription could not be renewed due to error"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro.php:341, tests/unit-tests/gateways/tests-give-recurring-paypalpro.php:118
+msgid "Invalid IPN for pay and renew transaction"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro.php:372
+msgid "Subscription Cancelled"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro.php:377, tests/unit-tests/gateways/tests-give-recurring-paypalpro.php:180
+msgid "Subscription could not be cancelled due to error"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro.php:383, tests/unit-tests/gateways/tests-give-recurring-paypalpro.php:188
+msgid "Invalid IPN to cancel a subscription"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro.php:415
+msgid "Subscription marked as complete"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro.php:420
+msgid "Subscription could not be completed due to error"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro.php:426
+msgid "Invalid IPN to complete a subscription"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro.php:454
+msgid "The PayPal IPN request received was invalid. Please contact support."
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro.php:455
+msgid "Invalid IPN"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro.php:477
+msgid "Recurring Donation Failed"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro.php:495
+msgid "Payment Data : %s"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro.php:496
+msgid "Error Processing IPN Transaction"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro.php:501, includes/gateways/give-recurring-paypalpro.php:502
+msgid "Invalid Currency Code"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro.php:501
+msgid "The currency code in an IPN request did not match the site currency code. Payment data: %s"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro.php:530
+msgid "There was a warning or error while creating subscription"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro.php:533, includes/gateways/give-recurring-paypalpro.php:627
+msgid "Error message:"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro.php:534, includes/gateways/give-recurring-paypalpro.php:628
+msgid "Error code:"
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro.php:625
+msgid "PayPal subscription cancellation failed."
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro.php:630
+msgid "Error: "
+msgstr ""
+
+#: includes/gateways/give-recurring-paypalpro.php:658
+msgid "An unidentified error occurred, please try again. Error:.$request->get_error_message"
+msgstr ""
+
+#: includes/gateways/give-recurring-stripe_ach.php:33
+msgid "The Bank Account payment method is not currently supported for this form. Please select another method."
+msgstr ""
+
+#: includes/gateways/give-recurring-stripe.php:127
+msgid "An error while subscribing a customer to a plan. Details: %s"
+msgstr ""
+
+#: includes/gateways/give-recurring-stripe.php:128, includes/gateways/give-recurring-stripe.php:524, includes/gateways/give-recurring-stripe.php:592, includes/gateways/give-recurring-stripe.php:667
+msgid "An error occurred while processing the donation. Please try again."
+msgstr ""
+
+#: includes/gateways/give-recurring-stripe.php:162
+msgid "Something went wrong with processing the payment gateway event."
+msgstr ""
+
+#: includes/gateways/give-recurring-stripe.php:164
+msgid "Processed event: %s"
+msgstr ""
+
+#: includes/gateways/give-recurring-stripe.php:210
+msgid "Invalid event ID."
+msgstr ""
+
+#: includes/gateways/give-recurring-stripe.php:218
+msgid "The Stripe Gateway returned an error while processing a webhook. Details: %s"
+msgstr ""
+
+#: includes/gateways/give-recurring-stripe.php:223, includes/gateways/give-recurring-stripe.php:523
+msgid "The Stripe Gateway returned an error while retrieving a customer. Details: %s"
+msgstr ""
+
+#: includes/gateways/give-recurring-stripe.php:363
+msgid "Charge refunded in Stripe."
+msgstr ""
+
+#: includes/gateways/give-recurring-stripe.php:417, includes/gateways/give-recurring-stripe.php:456
+msgid "Charge %s refunded in Stripe. Refund ID: %s"
+msgstr ""
+
+#: includes/gateways/give-recurring-stripe.php:428, includes/gateways/give-recurring-stripe.php:468
+msgid "Something went wrong while refunding the charge in Stripe."
+msgstr ""
+
+#: includes/gateways/give-recurring-stripe.php:455
+msgid "Charge %s refunded in Stripe."
+msgstr ""
+
+#: includes/gateways/give-recurring-stripe.php:471
+msgid "Charge %s could not be refunded in Stripe. Error: %s"
+msgstr ""
+
+#: includes/gateways/give-recurring-stripe.php:478
+msgid "Subscription %d cancelled."
+msgstr ""
+
+#: includes/gateways/give-recurring-stripe.php:591
+msgid "The Stripe Gateway returned an error while processing a payment. Details: %s"
+msgstr ""
+
+#: includes/gateways/give-recurring-stripe.php:666
+msgid "The Stripe Gateway returned an error while creating a plan. Details: %s"
+msgstr ""
+
+#: includes/gateways/give-recurring-stripe.php:713
+msgid "The Stripe Gateway does not appear to be activated."
+msgstr ""
+
+#: includes/gateways/give-recurring-stripe.php:718
+msgid "The Stripe publishable key must be entered in settings."
+msgstr ""
+
+#: includes/gateways/give-recurring-stripe.php:722
+msgid "The Stripe secret key must be entered in settings."
+msgstr ""
+
+#: includes/gateways/give-recurring-stripe.php:890
+msgid "The payment gateway returned an error while processing the donation."
+msgstr ""
+
+#: includes/gateways/give-recurring-stripe.php:894
+msgid "Message: %s"
+msgstr ""
+
+#: includes/gateways/give-recurring-stripe.php:896
+msgid "Code: %s"
+msgstr ""
+
+#: includes/gateways/give-recurring-stripe.php:901
+msgid "The Stripe API request was invalid, please try again."
+msgstr ""
+
+#: includes/gateways/give-recurring-stripe.php:946
+msgid "<strong>Attention:</strong> The Recurring Donations plugin requires the latest version of the Stripe gateway add-on to process donations properly. Please update to the latest version of Stripe to resolve this issue. If your license is active you should see the update available in WordPress. Otherwise, you can access the latest version by <a href=\"%s\" target=\"_blank\">logging into your account</a> and visiting <a href=\"%s\" target=\"_blank\">your downloads</a> page on the Give website."
+msgstr ""
+
+#: includes/gateways/give-recurring-wepay.php:98
+msgid "The WePay payment gateway does not appear to be activated."
+msgstr ""
+
+#: includes/gateways/give-recurring-wepay.php:130
+msgid "There was a problem tokenizing this credit card, please try again."
+msgstr ""
+
+#: includes/gateways/give-recurring-wepay.php:262
+msgid "WePay Subscription ID: %s"
+msgstr ""
+
+#: includes/gateways/give-recurring-wepay.php:295
+msgid "The subscription ID for this WePay transaction is missing. Please contact support."
+msgstr ""
+
+#: includes/gateways/give-recurring-wepay.php:307
+msgid "We are still confirming the initial subscription charge with WePay. This can take a few minutes to complete."
+msgstr ""
+
+#: includes/gateways/give-recurring-wepay.php:365
+msgid "The subscription plan in WePay could not be created, please try again."
+msgstr ""
+
+#: includes/gateways/give-recurring-wepay.php:611, includes/give-recurring-scripts.php:104
+msgid "WePay does not allow for daily recurring donations. Please select a period other than daily."
+msgstr ""
+
+#: includes/give-recurring-emails.php:219
+msgid "Hello {name},nnYour subscription for {subscription_name} will renew on {expiration}."
+msgstr ""
+
+#: includes/give-recurring-emails.php:225
+msgid "Hello {name},nnYour subscription for {subscription_name} will expire on {expiration}."
+msgstr ""
+
+#: includes/give-recurring-emails.php:271
+msgid "LOG - Subscription .ucfirst$email_type. Email Sent"
+msgstr ""
+
+#: includes/give-recurring-expirations.php:49
+msgid "One day before expiration"
+msgstr ""
+
+#: includes/give-recurring-expirations.php:50
+msgid "Two days before expiration"
+msgstr ""
+
+#: includes/give-recurring-expirations.php:51
+msgid "Three days before expiration"
+msgstr ""
+
+#: includes/give-recurring-expirations.php:52
+msgid "One week before expiration"
+msgstr ""
+
+#: includes/give-recurring-expirations.php:53
+msgid "Two weeks before expiration"
+msgstr ""
+
+#: includes/give-recurring-expirations.php:54
+msgid "One month before expiration"
+msgstr ""
+
+#: includes/give-recurring-expirations.php:55
+msgid "Two months before expiration"
+msgstr ""
+
+#: includes/give-recurring-expirations.php:56
+msgid "Three months before expiration"
+msgstr ""
+
+#: includes/give-recurring-expirations.php:57
+msgid "At the time of expiration"
+msgstr ""
+
+#: includes/give-recurring-expirations.php:58
+msgid "One day after expiration"
+msgstr ""
+
+#: includes/give-recurring-expirations.php:59
+msgid "Two days after expiration"
+msgstr ""
+
+#: includes/give-recurring-expirations.php:60
+msgid "Three days after expiration"
+msgstr ""
+
+#: includes/give-recurring-expirations.php:61
+msgid "One week after expiration"
+msgstr ""
+
+#: includes/give-recurring-expirations.php:62
+msgid "Two weeks after expiration"
+msgstr ""
+
+#: includes/give-recurring-expirations.php:63
+msgid "One month after expiration"
+msgstr ""
+
+#: includes/give-recurring-expirations.php:64
+msgid "Two months after expiration"
+msgstr ""
+
+#: includes/give-recurring-expirations.php:65
+msgid "Three months after expiration"
+msgstr ""
+
+#: includes/give-recurring-helpers.php:32
+msgid "Daily for %d Day"
+msgid_plural "Daily for %d Days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/give-recurring-helpers.php:35
+msgid "Weekly for %d Week"
+msgid_plural "Weekly for %d Weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/give-recurring-helpers.php:38
+msgid "Monthly for %d Month"
+msgid_plural "Monthly for %d Months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/give-recurring-helpers.php:41
+msgid "Yearly for %d Year"
+msgid_plural "Yearly for %d Years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/give-recurring-helpers.php:173, includes/give-recurring-helpers.php:184
+msgid "Custom Amount"
+msgstr ""
+
+#: includes/give-recurring-helpers.php:243
+msgid "Untitled Donation Form"
+msgstr ""
+
+#: includes/give-recurring-renewals.php:42
+msgid "One day before renewal"
+msgstr ""
+
+#: includes/give-recurring-renewals.php:43
+msgid "Two days before renewal"
+msgstr ""
+
+#: includes/give-recurring-renewals.php:44
+msgid "Three days before renewal"
+msgstr ""
+
+#: includes/give-recurring-renewals.php:45
+msgid "One week before renewal"
+msgstr ""
+
+#: includes/give-recurring-renewals.php:46
+msgid "Two weeks before renewal"
+msgstr ""
+
+#: includes/give-recurring-renewals.php:47
+msgid "One month before renewal"
+msgstr ""
+
+#: includes/give-recurring-renewals.php:48
+msgid "Two months before renewal"
+msgstr ""
+
+#: includes/give-recurring-renewals.php:49
+msgid "Three months before renewal"
+msgstr ""
+
+#: includes/give-recurring-scripts.php:36, includes/give-recurring-scripts.php:74
+msgid "Are you sure you want to cancel this subscription?"
+msgstr ""
+
+#: includes/give-recurring-scripts.php:75
+msgid "Are you sure you want to delete this subscription?"
+msgstr ""
+
+#: includes/give-recurring-scripts.php:77, templates/shortcode-subscriptions.php:149
+msgid "Cancel"
+msgstr ""
+
+#: includes/give-recurring-scripts.php:96
+msgctxt "Referring to billing period"
+msgid "time"
+msgstr ""
+
+#: includes/give-recurring-scripts.php:97
+msgctxt "Referring to billing period"
+msgid "times"
+msgstr ""
+
+#: includes/give-recurring-scripts.php:101
+msgid "Stripe requires that the Times option be set to 0."
+msgstr ""
+
+#: includes/give-recurring-scripts.php:109
+msgid "%3$sNotice:%4$s If you do not have %1$semail access%2$s enabled, then donor registration or login is required for them to complete subscription donations."
+msgstr ""
+
+#: includes/give-recurring-shortcodes.php:90
+msgid "Invalid User ID."
+msgstr ""
+
+#: includes/give-recurring-shortcodes.php:114
+msgid "Invalid Payment Update."
+msgstr ""
+
+#: includes/give-recurring-shortcodes.php:183
+msgid "You must be logged in to view your subscriptions."
+msgstr ""
+
+#: includes/give-recurring-template.php:43
+msgid "One time donation"
+msgstr ""
+
+#: includes/give-recurring-template.php:96
+msgid "Make this Donation"
+msgstr ""
+
+#: includes/give-recurring-template.php:137
+msgid "Donation"
+msgstr ""
+
+#: includes/give-recurring-template.php:240, templates/shortcode-subscriptions.php:131
+msgid "Until cancelled"
+msgstr ""
+
+#: includes/give-subscription.php:181
+msgid "Can't get property %s"
+msgstr ""
+
+#: includes/give-subscription.php:497
+msgid "Subscription #%1$s %2$s"
+msgstr ""
+
+#: includes/give-subscription.php:596
+msgid "gateway"
+msgstr ""
+
+#: includes/give-subscription.php:600
+msgid "Subscription #%d cancelled by %s"
+msgstr ""
+
+#: templates/shortcode-subscription-receipt.php:78
+msgid "Manage Subscriptions"
+msgstr ""
+
+#: templates/shortcode-subscriptions.php:17
+msgid "<strong>Success:</strong> Subscription payment method updated"
+msgstr ""
+
+#: templates/shortcode-subscriptions.php:23
+msgid "Notice"
+msgstr ""
+
+#: templates/shortcode-subscriptions.php:23
+msgid "Your subscription has been cancelled."
+msgstr ""
+
+#: templates/shortcode-subscriptions.php:44
+msgid "You have not made any recurring donations."
+msgstr ""
+
+#: templates/shortcode-subscriptions.php:77
+msgid "Start Date"
+msgstr ""
+
+#: templates/shortcode-subscriptions.php:80
+msgid "End Date"
+msgstr ""
+
+#: templates/shortcode-subscriptions.php:138
+msgid "View Receipt"
+msgstr ""
+
+#: templates/shortcode-subscriptions.php:143
+msgid "Update Payment Method"
+msgstr ""
+
+#: templates/shortcode-subscriptions.php:162
+msgid "You have not made any subscription donations."
+msgstr ""
+
+#: tests/unit-tests/gateways/tests-give-recurring-paypalpro.php:145
+msgid "Subscription could not be expired due to error"
+msgstr ""
+
+#: tests/unit-tests/gateways/tests-give-recurring-paypalpro.php:153
+msgid "Invalid IPN to expire a subscription"
+msgstr ""

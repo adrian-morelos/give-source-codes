@@ -1,0 +1,51 @@
+/**
+ * Give Recurring Frontend CSS
+ */
+
+/* Donors Choice Checkbox */
+.give-recurring-donors-choice {
+    border: 1px solid #ccc;
+    background: #f2f2f2;
+    padding: 3px 8px;
+    margin: 0 0 15px;
+    display: inline-block;
+    line-height:1em;
+    clear: both;
+    cursor: pointer;
+}
+
+.give-recurring-donors-choice label {
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.give-recurring-donors-choice input[type="checkbox"] {
+    margin: 0 3px 0 0;
+    position: relative;
+    width: auto;
+}
+
+.give-recurring-donors-choice + .give-btn-modal, .give-recurring-donors-choice + .give-btn-reveal {
+    display: block;
+}
+
+/* Admin Choice */
+[id*='give-form'].give-recurring-form-admin fieldset {
+    clear: both;
+}
+
+[id*='give-form'].give-recurring-form-admin span.give-recurring-admin-choice {
+    float: left;
+    font-size: 18px;
+    font-style: italic;
+    margin: 0 0 0 10px;
+}
+
+[id*='give-form'].give-recurring-form-admin div.give-donation-amount, [id*='give-form'].give-recurring-form-admin p.give-donation-amount {
+    float: left
+}
+
+.give-subscription-billing-cycle {
+    font-style: italic;
+    display: block;
+}

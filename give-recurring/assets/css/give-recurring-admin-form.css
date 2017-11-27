@@ -1,0 +1,103 @@
+/**
+ * Give Recurring Admin Donation Form Styles
+ *
+ * Recurring Multi-level Table Styles:  @see: https://github.com/WordImpress/Give-Recurring-Donations/issues/85
+ */
+
+@media (min-width: 1400px) {
+    .give-recurring-admin-choice .table-container > .table-row > .table-cell.col-sort {
+        display: block;
+        float: right;
+    }
+
+}
+
+@media (min-width: 1150px) {
+
+    .give-recurring-admin-choice .table-container > .table-row > .table-cell.col-recurring {
+        width: 70px;
+        padding-right: 10px;
+    }
+
+    .give-recurring-admin-choice .table-container > .table-row > .table-cell.col-period {
+        width: 65px;
+    }
+
+}
+
+@media (max-width: 1360px) {
+
+    .give-recurring-admin-choice .table-container > .table-row > .table-cell.col-sort {
+        display: none;
+    }
+
+}
+
+/*-------------------------------------
+Recurring Fields in Repeater
+-------------------------------------*/
+
+@media (min-width: 851px) and (max-width: 1319px) {
+
+    .cmb2-id--give-levels-header .table-container > .table-row > .table-cell.col-recurring, .cmb2-id--give-levels-header .table-container > .table-row > .table-cell.col-period, .cmb2-id--give-levels-header .table-container > .table-row > .table-cell.col-times {
+        display: none !important;
+    }
+
+    #_give_donation_levels_repeat > .cmb-repeatable-grouping .cmb-field-list > .cmb-row.give-recurring-option {
+        clear: left;
+    }
+
+    #_give_donation_levels_repeat > .cmb-repeatable-grouping .cmb-field-list > .cmb-row.give-recurring-multi-el {
+        padding-top: 0;
+    }
+
+    #_give_donation_levels_repeat > .cmb-repeatable-grouping .cmb-field-list > .cmb-row.give-recurring-multi-el .cmb-th {
+        width: 100%;
+        display: block;
+    }
+
+    #_give_donation_levels_repeat > .cmb-repeatable-grouping .cmb-field-list > .cmb-row.give-recurring-multi-el .cmb-th > label {
+        padding-left: 0;
+    }
+
+}
+
+@media (min-width: 1320px) {
+    .give-recurring-admin-choice .col-text {
+        width: 160px;
+    }
+
+    .give-recurring-admin-choice .give-multilevel-text-field {
+        width: 170px;
+    }
+
+    .give-recurring-admin-choice .col-default {
+        width: 55px;
+    }
+
+    #_give_donation_levels_repeat.give-recurring-admin-choice > .cmb-repeatable-grouping .cmb-field-list > .cmb-row.cmb-type-give-default-radio-inline {
+        padding-right: 25px;
+    }
+
+    #_give_donation_levels_repeat.give-recurring-admin-choice > .cmb-repeatable-grouping .cmb-field-list > .cmb-row.give-recurring-option .cmb2_select {
+        width: 65px;
+    }
+
+}
+
+/*-------------------------------------
+Messages
+-------------------------------------*/
+
+.wrap div.recurring-email-access-message {
+    border-left: 2px solid orange;
+    background-color: #FAFAFA;
+    margin: 0 0 0 -13px;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+.wrap div.recurring-email-access-message p {
+    font-style: italic;
+    margin: 0;
+}

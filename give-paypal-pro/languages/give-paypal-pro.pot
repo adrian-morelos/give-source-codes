@@ -1,0 +1,328 @@
+# Copyright (C) 2016 Give-PayPal-Pro
+# This file is distributed under the same license as the Give-PayPal-Pro package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Give-PayPal-Pro\n"
+"Report-Msgid-Bugs-To: https://github.com/WordImpress/give-paypal-pro/issues/new\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Language-Team: WordImpress <info@wordimpress.com>\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+#: includes/class-give-paypalpro-nvp.php:55, includes/class-give-paypalpro-nvp.php:77
+msgid "PayPal Website Payments Pro (NVP API)"
+msgstr ""
+
+#: includes/class-give-paypalpro-nvp.php:56, includes/class-give-paypalpro-payflow.php:75, includes/class-give-paypalpro-rest.php:57
+msgid "Credit Card"
+msgstr ""
+
+#: includes/class-give-paypalpro-nvp.php:78
+msgid "This gateway supports single donations, and recurring donations for accounts which have DPRP enabled. To enable DPRP on your account you have to contact PayPal Support directly. <a href=\"%s\" target=\"_blank\">Learn</a> which account type you currently have."
+msgstr ""
+
+#: includes/class-give-paypalpro-nvp.php:84
+msgid "Live API Username"
+msgstr ""
+
+#: includes/class-give-paypalpro-nvp.php:85
+msgid "Enter your live API username"
+msgstr ""
+
+#: includes/class-give-paypalpro-nvp.php:91
+msgid "Live API Password"
+msgstr ""
+
+#: includes/class-give-paypalpro-nvp.php:92
+msgid "Enter your live API password"
+msgstr ""
+
+#: includes/class-give-paypalpro-nvp.php:97
+msgid "Live API Signature"
+msgstr ""
+
+#: includes/class-give-paypalpro-nvp.php:98
+msgid "Enter your live API signature"
+msgstr ""
+
+#: includes/class-give-paypalpro-nvp.php:103
+msgid "Test API Username"
+msgstr ""
+
+#: includes/class-give-paypalpro-nvp.php:104
+msgid "Enter your test API username"
+msgstr ""
+
+#: includes/class-give-paypalpro-nvp.php:109
+msgid "Test API Password"
+msgstr ""
+
+#: includes/class-give-paypalpro-nvp.php:110
+msgid "Enter your test API password"
+msgstr ""
+
+#: includes/class-give-paypalpro-nvp.php:115
+msgid "Test API Signature"
+msgstr ""
+
+#: includes/class-give-paypalpro-nvp.php:116
+msgid "Enter your test API signature"
+msgstr ""
+
+#: includes/class-give-paypalpro-nvp.php:121, includes/class-give-paypalpro-payflow.php:148, includes/class-give-paypalpro-rest.php:113
+msgid "Collect Billing Details"
+msgstr ""
+
+#: includes/class-give-paypalpro-nvp.php:122
+msgid "This option will enable the billing details section for PayPal which requires the donor's address to complete the donation. These fields are not required by PayPal to process the transaction, but you may have the need to collect the data."
+msgstr ""
+
+#: includes/class-give-paypalpro-nvp.php:173, includes/class-give-paypalpro-rest.php:165
+msgid "Nonce verification has failed."
+msgstr ""
+
+#: includes/class-give-paypalpro-nvp.php:173, includes/class-give-paypalpro-rest.php:165
+msgid "Error"
+msgstr ""
+
+#: includes/class-give-paypalpro-nvp.php:191
+msgid "You must enter your API keys in settings."
+msgstr ""
+
+#: includes/class-give-paypalpro-nvp.php:268
+msgid "PayPal Pro Classic Error"
+msgstr ""
+
+#: includes/class-give-paypalpro-nvp.php:268
+msgid "PayPal Pro returned an error while processing a donation. Details: %s"
+msgstr ""
+
+#: includes/class-give-paypalpro-payflow.php:74, includes/class-give-paypalpro-payflow.php:97
+msgid "PayPal Payments Pro"
+msgstr ""
+
+#: includes/class-give-paypalpro-payflow.php:98
+msgid "This gateway is the preferred PayPal integration. It supports single and recurring donations. If you would to use this method you will need to have an active PayPal Payments Pro account. <a href=\"%s\" target=\"_blank\">Learn</a> which account type you currently have."
+msgstr ""
+
+#: includes/class-give-paypalpro-payflow.php:103
+msgid "Enable Transparent Redirect"
+msgstr ""
+
+#: includes/class-give-paypalpro-payflow.php:105
+msgid "Rather than showing a credit card form on your donation forms, this shows the form on it's own page and posts straight to PayPal, thus making the process more secure and more PCI friendly. \"Enable Secure Token\" needs to be enabled on your PayFlow account to work."
+msgstr ""
+
+#: includes/class-give-paypalpro-payflow.php:110
+msgid "PayPal Partner ID"
+msgstr ""
+
+#: includes/class-give-paypalpro-payflow.php:112
+msgid "The ID provided to you by the authorized PayPal Reseller who registered you for the Payflow SDK. If you purchased your account directly from PayPal, use PayPal or leave blank."
+msgstr ""
+
+#: includes/class-give-paypalpro-payflow.php:117
+msgid "PayPal Vendor ID"
+msgstr ""
+
+#: includes/class-give-paypalpro-payflow.php:119
+msgid "Your merchant login ID that you created when you registered for the account."
+msgstr ""
+
+#: includes/class-give-paypalpro-payflow.php:124
+msgid "PayPal User"
+msgstr ""
+
+#: includes/class-give-paypalpro-payflow.php:126
+msgid "If you set up one or more additional users on the account, this value is the ID of the user authorized to process transactions. Otherwise, leave this field blank."
+msgstr ""
+
+#: includes/class-give-paypalpro-payflow.php:131
+msgid "PayPal Password"
+msgstr ""
+
+#: includes/class-give-paypalpro-payflow.php:133
+msgid "The password that you defined while registering for the account."
+msgstr ""
+
+#: includes/class-give-paypalpro-payflow.php:138
+msgid "Payment Action"
+msgstr ""
+
+#: includes/class-give-paypalpro-payflow.php:142
+msgid "Capture"
+msgstr ""
+
+#: includes/class-give-paypalpro-payflow.php:143
+msgid "Authorize"
+msgstr ""
+
+#: includes/class-give-paypalpro-payflow.php:149, includes/class-give-paypalpro-rest.php:114
+msgid "This option enables the billing details section for PayPal which requires the donor to fill in their address to complete a donation. These fields are not required by PayPal to process the transaction."
+msgstr ""
+
+#: includes/class-give-paypalpro-payflow.php:213
+msgid "Donation on"
+msgstr ""
+
+#: includes/class-give-paypalpro-payflow.php:264, includes/class-give-paypalpro-payflow.php:269, includes/class-give-paypalpro-payflow.php:430, includes/class-give-paypalpro-payflow.php:436
+msgid "There was a problem connecting to the payment gateway."
+msgstr ""
+
+#: includes/class-give-paypalpro-payflow.php:265, includes/class-give-paypalpro-payflow.php:270, includes/class-give-paypalpro-payflow.php:302, includes/class-give-paypalpro-payflow.php:431, includes/class-give-paypalpro-payflow.php:437
+msgid "Payflow Error"
+msgstr ""
+
+#: includes/class-give-paypalpro-payflow.php:265, includes/class-give-paypalpro-payflow.php:431
+msgid "Error %s"
+msgstr ""
+
+#: includes/class-give-paypalpro-payflow.php:270, includes/class-give-paypalpro-payflow.php:437
+msgid "Empty Paypal response."
+msgstr ""
+
+#: includes/class-give-paypalpro-payflow.php:302
+msgid "PayPal Pro (Payflow) donation failed. Donation was rejected due to an error: (%1$s) \"%2$s\""
+msgstr ""
+
+#: includes/class-give-paypalpro-payflow.php:304
+msgid "Payment error: %s"
+msgstr ""
+
+#: includes/class-give-paypalpro-payflow.php:311
+msgid "Connection error: %s"
+msgstr ""
+
+#: includes/class-give-paypalpro-payflow.php:352
+msgid "PayPal Pro (Payflow) donation completed (PNREF: %s)"
+msgstr ""
+
+#: includes/class-give-paypalpro-payflow.php:361
+msgid "The donation was flagged by a fraud filter. Please check your PayPal Manager account to review and accept or deny the donation and then mark this donation complete or cancelled. Message from PayPal: %s"
+msgstr ""
+
+#: includes/class-give-paypalpro-rest.php:56, includes/class-give-paypalpro-rest.php:78
+msgid "PayPal Website Payments Pro (REST API)"
+msgstr ""
+
+#: includes/class-give-paypalpro-rest.php:79
+msgid "This gateway supports single donations, and recurring donations for accounts that have DPRP enabled. To enable DPRP on your account you have to contact PayPal Support directly. This method communicates with PayPal more quickly than the NVP method. <a href=\"%s\" target=\"_blank\">Learn</a> which account type you currently have."
+msgstr ""
+
+#: includes/class-give-paypalpro-rest.php:85
+msgid "Live REST API Client ID"
+msgstr ""
+
+#: includes/class-give-paypalpro-rest.php:86
+msgid "Enter your live REST API Client ID"
+msgstr ""
+
+#: includes/class-give-paypalpro-rest.php:92
+msgid "Live REST API Secret"
+msgstr ""
+
+#: includes/class-give-paypalpro-rest.php:93
+msgid "Enter your live REST API Secret"
+msgstr ""
+
+#: includes/class-give-paypalpro-rest.php:99
+msgid "Sandbox REST API Client ID"
+msgstr ""
+
+#: includes/class-give-paypalpro-rest.php:100
+msgid "Enter your Sandbox REST API Client ID"
+msgstr ""
+
+#: includes/class-give-paypalpro-rest.php:106
+msgid "Sandbox REST API Secret"
+msgstr ""
+
+#: includes/class-give-paypalpro-rest.php:107
+msgid "Enter your Sandbox REST API Secret"
+msgstr ""
+
+#: includes/class-give-paypalpro-rest.php:295
+msgid "There was an issue processing your donation: %1$s Please try again."
+msgstr ""
+
+#: includes/class-give-paypalpro-rest.php:296, includes/class-give-paypalpro-rest.php:307, includes/class-give-paypalpro-rest.php:316
+msgid "PayPal Pro REST Error"
+msgstr ""
+
+#: includes/class-give-paypalpro-rest.php:296, includes/class-give-paypalpro-rest.php:307, includes/class-give-paypalpro-rest.php:316
+msgid "PayPal Pro REST returned an error while processing a donation. Details: %s"
+msgstr ""
+
+#: includes/class-give-paypalpro-rest.php:306
+msgid "There was an issue processing your donation: %1$s. Please try again."
+msgstr ""
+
+#: includes/class-give-paypalpro-rest.php:315
+msgid "An error occurred while processing the donation: %1$s. Please try again."
+msgstr ""
+
+#: includes/give-paypalpro-activation.php:70
+msgid "PayPal Pro Gateway"
+msgstr ""
+
+#: includes/give-paypalpro-activation.php:93
+msgid "<strong>Activation Error:</strong> You must have the <a href=\"https://givewp.com/\" target=\"_blank\">Give</a> plugin installed and activated for the PayPal Pro add-on to activate."
+msgstr ""
+
+#: includes/give-paypalpro-activation.php:103
+msgid "<strong>Activation Error:</strong> You must have <a href=\"%s\" target=\"_blank\">Give</a> version %s+ for the PayPal Pro add-on to activate."
+msgstr ""
+
+#: includes/give-paypalpro-activation.php:121
+msgid "Settings"
+msgstr ""
+
+#: includes/give-paypalpro-activation.php:156
+msgid "Documentation"
+msgstr ""
+
+#: includes/give-paypalpro-activation.php:166
+msgid "Add-ons"
+msgstr ""
+
+#: includes/give-paypalpro-helper-functions.php:53
+msgid "Billing Address"
+msgstr ""
+
+#: includes/give-paypalpro-helper-functions.php:56
+msgid "Billing City"
+msgstr ""
+
+#: includes/give-paypalpro-helper-functions.php:59
+msgid "Billing Zip"
+msgstr ""
+
+#: includes/give-paypalpro-helper-functions.php:62
+msgid "Credit Card Number"
+msgstr ""
+
+#: includes/give-paypalpro-helper-functions.php:65
+msgid "CVC Code"
+msgstr ""
+
+#: includes/give-paypalpro-helper-functions.php:68
+msgid "Credit Card Expiration Month"
+msgstr ""
+
+#: includes/give-paypalpro-helper-functions.php:71
+msgid "Credit Card Expiration Year"
+msgstr ""
+
+#: includes/give-paypalpro-helper-functions.php:78
+msgid "Invalid %s."
+msgstr ""
+
+#: includes/give-paypalpro-helper-functions.php:155
+msgid "Custom Amount"
+msgstr ""

@@ -1,0 +1,130 @@
+/**
+ * Give Recurring Admin Settings styles
+ */
+
+.give_settings .cmb2-wrap .cmb-row.cmb-type-renewal-reminders {
+	display: none;
+}
+
+a.view-recurring-log {
+	float: right;
+}
+
+.give-recurring-description, p.give-recurring-description {
+	font-size: 13px;
+	line-height: 1.5;
+	color: #aaaaaa;
+	font-style: italic;
+	margin: 0;
+	padding: .5em 0;
+}
+
+p.give-paypal-description {
+	background: #FFF;
+	padding: 15px;
+	border-radius: 5px;
+}
+
+/* Welcome ----------------------- */
+
+.give_settings .cmb2-wrap .cmb-row.cmb-type-recurring-welcome {
+	display: block;
+	box-sizing: border-box;
+}
+
+.give_settings .cmb2-wrap .cmb-row.cmb-type-recurring-welcome > .cmb-th {
+	display: none;
+}
+
+.give_settings .cmb2-wrap .cmb-row.cmb-type-recurring-welcome > .cmb-td {
+	display: block;
+}
+
+.recurring-two-columns {
+	float: left;
+	width: 50%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.recurring-column-1 {
+	width: 47%;
+	margin-right: 3%;
+}
+
+.recurring-column-2 {
+	background: #FFF;
+	border-radius: 5px;
+	padding: 15px;
+}
+
+/* Welcome Blurb */
+
+.welcome-blurb {
+	position: relative;
+}
+
+.welcome-blurb h3 {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+.welcome-blurb h3 .dashicons {
+	position: relative;
+	top: 2px;
+}
+
+.give-recurring-notice {
+	margin: 10px 0;
+	padding: 12px;
+	border-left: 4px solid #46b450;
+	box-shadow: 1px 1px 1px 0 rgba( 0, 0, 0, 0.1 );
+}
+
+.give-recurring-notice-issue {
+	border-left-color:#dc3232;
+}
+
+/* No license warning improve spacing */
+.wrap div.give-recurring-no-license.updated {
+	margin: 20px 0 0;
+}
+
+/* Recurring doc list */
+
+.recurring-docs-list h4 {
+	margin-top: 0;
+}
+
+.recurring-docs-list p {
+	font-style: italic;
+	color: #aaaaaa;
+}
+
+ul.doc-list, .cmb2-wrap ul.doc-list {
+	list-style: disc;
+	margin: 5px 0 0 20px;
+}
+
+ul.doc-list ul.children, .cmb2-wrap ul.doc-list ul.children {
+    list-style: circle;
+    margin: 8px 0 12px 20px;
+}
+
+@media (max-width: 800px) {
+
+	.recurring-two-columns, .recurring-column-1 {
+		width: 100%;
+		margin: 0;
+		float: none;
+	}
+
+}
+
+
+/* Gateway Specific Setting Styles */
+
+.give_settings .cmb2-wrap .cmb-row.cmb2-id-give-authorize-md5-hash-value {
+	display: none;
+}
